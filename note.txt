@@ -1,0 +1,11 @@
+git init # init a git respository and mkdir .git
+# add a file to git only need two steps
+1.git add filename.xxx
+2.git commit -m "description about this conduct" # commit all files
+git status # status about respository such as modified
+git diff filename.xxx # show change about file
+git log # list all commit before. show oneline(--pretty=oneline)
+git reset --hard HEAD^ # change head position last commit. (HEAD~100)
+git reset --hard 3628164 # commit id
+git reflog # history record
+
