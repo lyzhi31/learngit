@@ -18,5 +18,7 @@ git checkout -b dev # Switched to branch "dev"
 git branch dev
 git checkout dev # The same as before
 git branch # list all branch
-
+git merge dev # merge dev and master
+git branch -d dev # Delete branch dev
+git log --graph --pretty=oneline --abbrev-commit
 
